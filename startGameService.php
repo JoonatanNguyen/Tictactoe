@@ -3,7 +3,8 @@
     $body = json_decode($textMessage);
     $userId = $body->userId;
     $name = $body->name;
-
+//print $userId;
+//print $name;
     $tictactoeDb = new PDO('mysql:host=127.0.0.1;port=8889;dbname=tictactoe', 'WATestUser1', 'WATestPwd1');
 
     $groupsResult = $tictactoeDb->query(

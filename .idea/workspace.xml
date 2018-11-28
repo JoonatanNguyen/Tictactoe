@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e68c85-1956-43d6-bb0b-71c0dd952693" name="Default" comment="" />
+    <list default="true" id="e4e68c85-1956-43d6-bb0b-71c0dd952693" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MyConnect$.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playGameService.php" beforeDir="false" afterPath="$PROJECT_DIR$/playGameService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startGameService.php" beforeDir="false" afterPath="$PROJECT_DIR$/startGameService.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +21,29 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playGameService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playGameService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getMarkedCoordinate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getMarkedCoordinate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -26,20 +51,41 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="288">
+              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyConnect.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="startGameService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/startGameService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <marker date="1543153390097" expanded="true" signature="104:151" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyConnect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyConnect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyConnect$.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyConnect$.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,13 +108,21 @@
       <find>console.log(e.target.id);</find>
       <find>$watestdb</find>
       <find>resultHandler</find>
+      <find>new MyConnect</find>
+      <find>&quot;</find>
+      <find>[]</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>(event)</replace>
       <replace>(e)</replace>
       <replace>choose(e.target.id)</replace>
       <replace>$tictactoedb</replace>
+      <replace>'</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,13 +141,14 @@
         <option value="$PROJECT_DIR$/getmessageservice.php" />
         <option value="$PROJECT_DIR$/indexCSS.css" />
         <option value="$PROJECT_DIR$/indexStyle.css" />
-        <option value="$PROJECT_DIR$/startGameService.php" />
-        <option value="$PROJECT_DIR$/playGameService.php" />
         <option value="$PROJECT_DIR$/getMarkedCoordinate.php" />
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/../simplesymfony/config/routes.yaml" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/MyConnect.js" />
+        <option value="$PROJECT_DIR$/MyConnect$.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/startGameService.php" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/playGameService.php" />
       </list>
     </option>
   </component>
@@ -113,6 +168,9 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,6 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="play&#9;FILE&#9;file:///Applications/MAMP/htdocs/playGameService.php&#10;getmar&#9;FILE&#9;file:///Applications/MAMP/htdocs/getMarkedCoordinate.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -228,12 +287,12 @@
       <workItem from="1542802518605" duration="746000" />
       <workItem from="1542805474007" duration="2385000" />
       <workItem from="1542835434974" duration="1544000" />
-      <workItem from="1543078693325" duration="736000" />
+      <workItem from="1543078693325" duration="20691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73465000" />
+    <option name="totallyTimeSpent" value="93420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -246,12 +305,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21323529" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21486267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17932148" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -266,6 +325,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17932148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21323529" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -274,7 +362,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/setnickservice.js" />
     <entry file="file://$PROJECT_DIR$/setnickservice.php" />
     <entry file="file://$PROJECT_DIR$/sendmessageservice.php" />
     <entry file="file://$PROJECT_DIR$/eventhandlers.js" />
@@ -335,20 +422,6 @@
     <entry file="file://$PROJECT_DIR$/getmessageservice.php" />
     <entry file="file://$PROJECT_DIR$/sendmessageservice.php" />
     <entry file="file://$PROJECT_DIR$/indexCSS.css" />
-    <entry file="file://$PROJECT_DIR$/getMarkedCoordinate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startGameService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indexStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -363,37 +436,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/MyConnect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playGameService.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-end-line="52" />
+        <state relative-caret-position="288">
+          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startGameService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <marker date="1543153390097" expanded="true" signature="104:151" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyConnect$.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getMarkedCoordinate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyConnect.js">
+    <entry file="file://$PROJECT_DIR$/playGameService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="733">
+          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
         </state>
       </provider>
     </entry>

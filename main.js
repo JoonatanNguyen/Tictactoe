@@ -24,15 +24,19 @@ function playOnClick() {
         userId: guid(),
         name: document.getElementById('textBox').value
     };
-    new MyConnect(
+
+    post(
+        'startGameService',
         options,
-        "startGameService",
-        function () {
-        //call back function of JS
+        function() {
             sessionStorage.setItem('userId', options.userId);
             document.getElementById('setNickBox').style.display = 'none';
             document.getElementById('tableGrid').style.display = 'block';
-        });
+        },
+        function (XMLHttpRequest, textStatus, errorThrown) {
+            alert(XMLHttpRequest.responseText);
+        }
+    );
 }
 
 function buttonOneOnClick(e) {
@@ -74,42 +78,52 @@ function buttonNineOnClick(e) {
 function choose(chosenCoordinate) {
     document.getElementById(chosenCoordinate).disabled = true;
     let options = {
-        userId: sessionStorage.getItem("userId"),
+        userId: sessionStorage.getItem('userId'),
         coordinate: chosenCoordinate
     };
-    new MyConnect(
+    post(
+        'playGameService',
         options,
-        "playGameService",
         function (response) {
-            //call back function of JS
-            console.log(response);
+           //call back function of JS
             let enableMark = document.getElementById(response.mark + chosenCoordinate);
             enableMark.style.display = 'block';
             chosenCoordinates.push(chosenCoordinates);
-        });
+            console.log(response.successMessage);
+            if (response.successMessage) {
+                alert(response.successMessage);
+            }
+        },
+        function (XMLHttpRequest) {
+            alert(XMLHttpRequest.responseJSON.errorMessage);
+        }
+    );
 }
 
 function getMarkedCoordinate() {
 
-    new MyConnect(
-        {
-            userId: sessionStorage.getItem("userId")
-        },
-        "getMarkedCoordinate",
+    let options = {
+        userId: sessionStorage.getItem('userId')
+    };
+    post(
+        'getMarkedCoordinate',
+        options,
         function (response) {
             let unchosenCoordinates = [];
             //call back function of JS
-            console.log(response);
             response.forEach(function(item) {
                 if (!chosenCoordinates.includes(item.coordinate)) {
                     unchosenCoordinates.push(item);
                 }
-            })
+            });
             unchosenCoordinates.forEach(function (item) {
                 let enableMark = document.getElementById(item.mark + item.coordinate);
                 enableMark.style.display = 'block';
             })
-    });
+        },
+        function (XMLHttpRequest, textStatus, errorThrown) {
+            alert(XMLHttpRequest.responseText);
+        });
 
 }
 
